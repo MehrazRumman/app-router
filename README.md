@@ -10,11 +10,3 @@ An intuitive and flexible routing system for Next.js applications. The App Route
 - **Nested Routes**: Organize and manage nested routes easily.
 - **Built-in Middleware**: Use middleware to handle authentication, logging, and more.
 
-## Getting Started
-
-To get started with the Next.js App Router, create a new Next.js project or use an existing one:
-
-```bash
-npx create-next-app my-app
-cd my-app
-```
