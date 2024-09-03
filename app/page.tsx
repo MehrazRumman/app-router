@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+import DarkModeToggle from './DarkModeToggle';
 
 function Home() {
   const data = [
@@ -13,13 +14,17 @@ function Home() {
     <div className={styles.container}>
       <Head>
         <title>This App Created To Test Page Routing</title>
-      
       </Head>
+   
 
       <main className={styles.main}>
-        <h1>Using App router</h1>
+
+        <h1>Using App Router</h1>
         <h1>Welcome to Area 51</h1>
         <h2>Soldiers</h2>
+
+        {/* Include the Dark Mode Toggle component */}
+        <DarkModeToggle />
 
         <table className={styles.table}>
           <thead>
